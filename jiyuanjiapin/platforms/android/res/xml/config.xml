@@ -11,6 +11,8 @@
     </author>
     <content src="http://www.xinjiyuan.com18.cn/wap" />
     <access origin="*" />
+    <access origin="http://127.0.0.1*" />
+    <access origin="http://xinjiyuan.com18.cn" subdomains="true" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
