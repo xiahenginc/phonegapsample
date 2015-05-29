@@ -2,7 +2,7 @@
 
 <html>
     <head>      
-       
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
@@ -10,43 +10,34 @@
         <link rel="stylesheet" type="text/css" href="css/index.css">
        
         <title>纪元佳品</title>
+<script>
+function wife(){
+	
+	jQuery.ajax({
+	type: "POST",
+	url: "http://www.xinjiyuan.com18.cn/wap/wift.html",
+	success: function(msg){
+	 if(msg==1){
+	  self.location.href='http://www.xinjiyuan.com18.cn/wap/index.jsp';
+	 }else{
+	 return false;
+	 }
+	}
+	});	
+}
+</script>
     </head>
-    <body>
-        <div class="apploading"><h1>正在加载</h1>
-            <!--<h1>请检查您的网络设置</h1>
+    <body onload="wife()">
+        <div class="app"><h1>抱歉，加载失败了</h1>
+            <!--<h1>请检查您的网络设置</h1>-->
             <div id="deviceready" class="blink">
                 <p class="event listening">刷新页面</p>
-                 <input type="button" value="刷新页面"  class="event received" onclick="localtion.href='index.html';">
-            </div>-->
+                 <input type="button" value="刷新页面"  class="event received" onclick="window.localtion.reload();">
+              
+            </div>
         </div>
-<script type="text/javascript" src="cordova.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
-        
-<script src="http://www.xinjiyuan.com18.cn/js/jquery-1.8.2.min.js"></script>
-<script>
-setTimeout("location.href='error.html'",10000);
-if(typeof(window.jQuery) == "undefined"){
-	
-}else{
-	location.href='http://www.xinjiyuan.com18.cn/wap/index.jsp';
-}
-//function wife(){
-//	jQuery.ajax({
-//	type: "POST",
-//	dataType:"jsonp",
-//  jsonp:"jsoncallback",  
-//	url: "http://www.xinjiyuan.com18.cn/wap/wift.html",
-//	success: function(msg){
-//		alert(msg);
-//	   location.href='http://www.xinjiyuan.com18.cn/wap/index.jsp';
-//	},
-//	error:function(){
-//		alert(3);
-//	}
-//	});	
-//}
-</script>
-
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+         <script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
     </body>
-    
 </html>
