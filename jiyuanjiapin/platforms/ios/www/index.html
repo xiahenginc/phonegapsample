@@ -23,12 +23,20 @@
         
 <script src="http://www.xinjiyuan.com18.cn/js/jquery-1.8.2.min.js"></script>
 <script>
+var i=0;
 setTimeout("location.href='error.html'",10000);
+setInterval("i=i+0.5",500);
 if(typeof(window.jQuery) == "undefined"){
 	
 }else{
-	location.href='http://www.xinjiyuan.com18.cn/wap/index.jsp';
+	if(i>=3.5){
+		location.href='http://www.xinjiyuan.com18.cn/wap/index.jsp';
+	}else{
+		var time=3.5-i;
+		setTimeout("location.href='http://www.xinjiyuan.com18.cn/wap/index.jsp'",time*1000);
+	}
 }
+
 //function wife(){
 //	jQuery.ajax({
 //	type: "POST",
