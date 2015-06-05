@@ -364,6 +364,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Changzhou Iteasysoft Co., Ltd. (B4Y539L9G9)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -386,6 +387,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = xinshuiguodong;
+				PROVISIONING_PROFILE = "e67910ca-25ef-4088-a7d4-7b5591148630";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -395,6 +397,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Changzhou Iteasysoft Co., Ltd. (B4Y539L9G9)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "xinshuiguodong/xinshuiguodong-Prefix.pch";
@@ -415,6 +418,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = xinshuiguodong;
+				PROVISIONING_PROFILE = "e67910ca-25ef-4088-a7d4-7b5591148630";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
